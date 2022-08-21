@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+class  Beautiful Rose extends React.Component {
+  render() {
+    return <h2>I am a {this.props.color} Beautiful Rose!</h2>;
+  }
+}
+
+ReactDOM.render(<Rose color="light yellow"/>, document.getElementById('root'));
